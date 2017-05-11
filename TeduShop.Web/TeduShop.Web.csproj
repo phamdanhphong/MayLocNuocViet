@@ -254,13 +254,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TedShop.Data\TedShop.Data.csproj">
+    <ProjectReference Include="..\TedShop.Data\TeduShop.Data.csproj">
       <Project>{fcc82f77-c64e-42f2-8da4-48f87cd4c2b9}</Project>
-      <Name>TedShop.Data</Name>
+      <Name>TeduShop.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Tedu.Common\Tedu.Common.csproj">
+    <ProjectReference Include="..\Tedu.Common\TeduShop.Common.csproj">
       <Project>{fdd240eb-0564-4022-a63e-78832a13e349}</Project>
-      <Name>Tedu.Common</Name>
+      <Name>TeduShop.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Model\TeduShop.Model.csproj">
       <Project>{c5457646-0efe-420f-88fa-008c48980d84}</Project>

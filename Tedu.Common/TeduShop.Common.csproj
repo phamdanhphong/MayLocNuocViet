@@ -7,8 +7,8 @@
     <ProjectGuid>{FDD240EB-0564-4022-A63E-78832A13E349}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tedu.Common</RootNamespace>
-    <AssemblyName>Tedu.Common</AssemblyName>
+    <RootNamespace>TeduShop.Common</RootNamespace>
+    <AssemblyName>TeduShop.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
