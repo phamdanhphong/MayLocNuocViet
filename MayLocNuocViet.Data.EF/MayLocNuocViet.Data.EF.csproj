@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>MayLocNuocViet.Data.EF</AssemblyName>
+    <RootNamespace>MLT.MayLocNuocViet.Data.EF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Seed\**" />
+    <EmbeddedResource Remove="Seed\**" />
+    <None Remove="Seed\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="IUnitOfWork.cs" />
+    <Compile Remove="Migrations\20171102142717_initial.cs" />
+    <Compile Remove="Migrations\20171102142717_initial.Designer.cs" />
+    <Compile Remove="Migrations\20171207134808_bill_customerid_nullable.cs" />
+    <Compile Remove="Migrations\20171207134808_bill_customerid_nullable.Designer.cs" />
+    <Compile Remove="Migrations\20190416073602_initial.cs" />
+    <Compile Remove="Migrations\20190416073602_initial.Designer.cs" />
+    <Compile Remove="Repositories\CatalogRepository.cs" />
+    <Compile Remove="Repositories\ICatalogRepository.cs" />
+    <Compile Remove="Repositories\IRepository.cs" />
+    <Compile Remove="Repositories\Repository.cs" />
+    <Compile Remove="UnitOfWork.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="g0ebu4q0.s3w~" />
+    <None Remove="Repositories\gj1exynt.vuv~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MayLocNuocViet.Data\MayLocNuocViet.Data.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Infrastructure\MayLocNuocViet.Infrastructure.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Utilities\MayLocNuocViet.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>

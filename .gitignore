@@ -250,3 +250,17 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/MayLocNuocViet.Data/obj
+/MayLocNuocViet.Data/bin
+/MayLocNuocViet.Data.EF/obj
+/MayLocNuocViet.Data.EF/bin
+/MayLocNuocViet.Infrastructure/bin
+/MayLocNuocViet.Infrastructure/obj
+/MayLocNuocViet.Models/bin
+/MayLocNuocViet.Models/obj
+/MayLocNuocViet.Services/obj
+/MayLocNuocViet.Services/bin
+/MayLocNuocViet.Utilities/obj
+/MayLocNuocViet.Utilities/bin
+/MayLocNuocViet.Web/bin
+/MayLocNuocViet.Web/obj

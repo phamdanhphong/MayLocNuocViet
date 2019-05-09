@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>MLT.MayLocNuocViet.Web</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\MayLocNuocViet.Data.EF\MayLocNuocViet.Data.EF.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Data\MayLocNuocViet.Data.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Infrastructure\MayLocNuocViet.Infrastructure.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Models\MayLocNuocViet.Models.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Services\MayLocNuocViet.Services.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Utilities\MayLocNuocViet.Utilities.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>

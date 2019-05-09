@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>MayLocNuocViet.Models</AssemblyName>
+    <RootNamespace>MLT.MayLocNuocViet.Models</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="System\AuditTrailLogViewModel.cs" />
+    <Compile Remove="System\ClameViewModel.cs" />
+    <Compile Remove="System\ConcurrencyCheckViewModel.cs" />
+    <Compile Remove="System\GroupBaseModel.cs" />
+    <Compile Remove="System\GroupRoleViewModel.cs" />
+    <Compile Remove="System\GroupViewModel.cs" />
+    <Compile Remove="System\MenuViewModel.cs" />
+    <Compile Remove="System\NotificationBaseModel.cs" />
+    <Compile Remove="System\NotificationHistoryBaseModel.cs" />
+    <Compile Remove="System\NotificationHistoryViewModel.cs" />
+    <Compile Remove="System\NotificationViewModel.cs" />
+    <Compile Remove="System\RegisterUserViewModel.cs" />
+    <Compile Remove="System\SearchUserViewModel.cs" />
+  </ItemGroup>
+
+</Project>

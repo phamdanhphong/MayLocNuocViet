@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>MayLocNuocViet.Services</AssemblyName>
+    <RootNamespace>MLT.MayLocNuocViet.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Providers\**" />
+    <Compile Remove="Searchs\**" />
+    <EmbeddedResource Remove="Providers\**" />
+    <EmbeddedResource Remove="Searchs\**" />
+    <None Remove="Providers\**" />
+    <None Remove="Searchs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="AutoMapper\BaseModelToDomainMappingProfile.cs" />
+    <Compile Remove="AutoMapper\ViewModelToDomainMappingProfile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="RazorLight" Version="2.0.0-beta1" />
+    <PackageReference Include="Sendgrid" Version="9.10.0" />
+    <PackageReference Include="SendGrid.Core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MayLocNuocViet.Data.EF\MayLocNuocViet.Data.EF.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Data\MayLocNuocViet.Data.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Models\MayLocNuocViet.Models.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Utilities\MayLocNuocViet.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
