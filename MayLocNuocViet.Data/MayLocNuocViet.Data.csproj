@@ -15,11 +15,8 @@
     <Compile Remove="Entities\Notification.cs" />
     <Compile Remove="Entities\NotificationHistory.cs" />
     <Compile Remove="Entities\Parameters.cs" />
-    <Compile Remove="Entities\Role.cs" />
     <Compile Remove="Entities\RolePermission.cs" />
-    <Compile Remove="Entities\User.cs" />
     <Compile Remove="Entities\UserInGroup.cs" />
-    <Compile Remove="Entities\UserRole.cs" />
   </ItemGroup>
 
   <ItemGroup>

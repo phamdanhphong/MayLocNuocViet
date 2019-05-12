@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Seed\**" />
-    <EmbeddedResource Remove="Seed\**" />
-    <None Remove="Seed\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="IUnitOfWork.cs" />
     <Compile Remove="Migrations\20171102142717_initial.cs" />
     <Compile Remove="Migrations\20171102142717_initial.Designer.cs" />

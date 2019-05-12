@@ -1,5 +1,4 @@
-﻿using MLT.MayLocNuocViet.Data.BaseEntities;
-using System.ComponentModel.DataAnnotations;
+﻿using MLT.MayLocNuocViet.Infrastructure.BaseEntities;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MLT.MayLocNuocViet.Data.Entities

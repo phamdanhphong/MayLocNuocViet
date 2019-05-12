@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using MLT.MayLocNuocViet.Data.BaseEntities;
-using MLT.MayLocNuocViet.Data.Interfaces;
+using MLT.MayLocNuocViet.Infrastructure.BaseEntities;
 
 namespace MLT.MayLocNuocViet.Data.Entities
 {
