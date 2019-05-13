@@ -1,4 +1,5 @@
 ﻿using MLT.MayLocNuocViet.Infrastructure.BaseEntities;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -13,5 +14,7 @@ namespace MLT.MayLocNuocViet.Data.Entities
         public string Description { get; set; }
 
         public int OrderBy { get; set; }
+
+        public virtual ICollection<Employee> Employee { get; set; }
     }
 }

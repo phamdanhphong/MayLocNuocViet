@@ -18,6 +18,9 @@ using MLT.MayLocNuocViet.Web.Helpers;
 using Newtonsoft.Json.Serialization;
 using Microsoft.Extensions.Configuration;
 using MLT.MayLocNuocViet.Services.AutoMapper;
+using MLT.MayLocNuocViet.Services.Interfaces;
+using MLT.MayLocNuocViet.Services.Implementation;
+using MLT.MayLocNuocViet.Infrastructure;
 
 namespace MLT.MayLocNuocViet.Web
 {
@@ -75,6 +78,8 @@ namespace MLT.MayLocNuocViet.Web
             AutoMapperConfig.RegisterMappings();
 
             // Add application services.
+            services.AddScoped<IEFDbContext>(provider => provider.GetService<AppDbContext>());
+
             services.AddScoped<UserManager<Employee>, UserManager<Employee>>();
             services.AddScoped<RoleManager<Role>, RoleManager<Role>>();
 
@@ -104,7 +109,9 @@ namespace MLT.MayLocNuocViet.Web
             services.AddTransient(typeof(IEFUnitOfWork), typeof(EFUnitOfWork));
             services.AddTransient(typeof(IEFRepository<>), typeof(EFRepository<>));
             //Serrvices
-            //services.AddTransient<IProductCategoryService, ProductCategoryService>();
+            services.AddTransient<IPositionService, PositionService>();
+
+
             //services.AddTransient<IFunctionService, FunctionService>();
             //services.AddTransient<IProductService, ProductService>();
             //services.AddTransient<IUserService, UserService>();

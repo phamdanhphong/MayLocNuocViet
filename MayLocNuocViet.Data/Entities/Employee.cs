@@ -35,8 +35,16 @@ namespace MLT.MayLocNuocViet.Data.Entities
 
         public int Status { get; set; }
 
+        public bool IsLock { get; set; }
+
+        public decimal BasicSalary { get; set; }
+
+        public decimal InsuranceSalary { get; set; }
+
         [ForeignKey("PositionId")]
         public virtual Position Position { set; get; }
+
+
 
     }
 }

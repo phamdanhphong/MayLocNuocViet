@@ -31,7 +31,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MayLocNuocViet.Data.EF\MayLocNuocViet.Data.EF.csproj" />
     <ProjectReference Include="..\MayLocNuocViet.Data\MayLocNuocViet.Data.csproj" />
-    <ProjectReference Include="..\MayLocNuocViet.Models\MayLocNuocViet.Models.csproj" />
+    <ProjectReference Include="..\MayLocNuocViet.Models\MayLocNuocViet.DataModel.csproj" />
     <ProjectReference Include="..\MayLocNuocViet.Utilities\MayLocNuocViet.Utilities.csproj" />
   </ItemGroup>
 

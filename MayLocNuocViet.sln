@@ -21,11 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayLocNuocViet.Utilities", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayLocNuocViet.Data", "MayLocNuocViet.Data\MayLocNuocViet.Data.csproj", "{F92ED982-8135-42E1-8C24-3B99029A6AB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayLocNuocViet.Models", "MayLocNuocViet.Models\MayLocNuocViet.Models.csproj", "{216B8F65-478F-4AAD-AE7F-8BB6040E2484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayLocNuocViet.DataModel", "MayLocNuocViet.Models\MayLocNuocViet.DataModel.csproj", "{216B8F65-478F-4AAD-AE7F-8BB6040E2484}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayLocNuocViet.Infrastructure", "MayLocNuocViet.Infrastructure\MayLocNuocViet.Infrastructure.csproj", "{35F03B1A-6840-43B7-88E5-4E598D768D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayLocNuocViet.Web", "MayLocNuocViet.Web\MayLocNuocViet.Web.csproj", "{E9B003E9-EAA1-4294-8E7C-F0332FDEC2A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayLocNuocViet.Web", "MayLocNuocViet.Web\MayLocNuocViet.Web.csproj", "{E9B003E9-EAA1-4294-8E7C-F0332FDEC2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
