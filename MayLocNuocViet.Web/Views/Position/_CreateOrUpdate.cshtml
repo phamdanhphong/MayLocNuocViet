@@ -1,0 +1,23 @@
+﻿@model MLT.MayLocNuocViet.DataModel.Hrm.PositionViewModel
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="form-group">
+    <label asp-for="Name" class="control-label col-md-3 col-sm-3 col-xs-12"></label>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <input asp-for="Name" class="form-control col-md-7 col-xs-12" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="Description" class="control-label col-md-3 col-sm-3 col-xs-12"></label>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <textarea asp-for="Description" class="textarea form-control col-md-7 col-xs-12" rows="5"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="OrderBy" class="control-label col-md-3 col-sm-3 col-xs-12"></label>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <input asp-for="OrderBy" class="form-control col-md-7 col-xs-12" />
+        <span asp-validation-for="OrderBy" class="text-danger"></span>
+    </div>
+</div>
